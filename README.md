@@ -7,7 +7,7 @@ Simple particle system created in [Hazel Engine](https://github.com/TheCherno/Ha
 ### Clone
 Make sure to clone with submodules:
 ```cmd
-> git clone https://github.com/monaboiste/hazel-particle-system-demo --recursive
+> git clone --recurse-submodules https://github.com/monaboiste/hazel-particle-system-demo
 ```
 
 ### Generate project
