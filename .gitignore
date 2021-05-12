@@ -1,0 +1,17 @@
+# Binaries
+Bin/
+Bin-Int/
+!Vendor/premake/Bin/
+**.lib
+
+# Debugger symbols
+**.pdb
+
+# Directories
+.vs/
+
+# Files
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
