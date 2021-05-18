@@ -4,7 +4,6 @@
 #include "Hazel\Events\ApplicationEvent.h"
 #include "Hazel\Events\KeyEvent.h"
 #include "Hazel\Events\MouseEvent.h"
-#include "Hazel\ImGui\ImGuiConsole.h"
 
 namespace Hazel {
 

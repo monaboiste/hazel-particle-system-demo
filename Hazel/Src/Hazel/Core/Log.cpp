@@ -1,8 +1,6 @@
 #include "hzpch.h"
 #include "Log.h"
 
-#include "Hazel\ImGui\ImGuiConsoleSink.h"
-
 #include "spdlog\sinks\stdout_color_sinks.h"
 
 namespace Hazel {
@@ -14,7 +12,6 @@ namespace Hazel {
 	{
 		std::vector<spdlog::sink_ptr> sinks;
 		sinks.emplace_back(std::make_shared<spdlog::sinks::stdout_color_sink_mt>()); /* VS debug console */
-		sinks.emplace_back(std::make_shared<ImGuiConsoleSink_mt>(true));  /* ImGuiConsole */
 
 		// ms_coreLogger = spdlog::stdout_color_mt("HAZEL");
 		// ms_clientLogger = spdlog::stdout_color_mt("APP");
